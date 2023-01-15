@@ -259,3 +259,67 @@ footer {
 
 
 /*-------------------Responsiveness-------------------*/
+
+@media only screen and (max-width: 600px) {
+    header .logo svg {
+        width: 100px;
+    }
+    nav .select .button {
+        padding: 5px 10px;
+    }
+    nav select {
+        padding: 4px 8px;
+    }
+    .home-content {
+        position: unset;
+        transform: none;
+    }
+    .home-content h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .home-content h2 {
+        font-size: 25px;
+        line-height: 35px;
+        margin: 15px;
+    }
+    .home-content h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .email-signup button {
+        display: block;
+        font-size: 10px;
+        padding: 13px 15px;
+    }
+    .text-col, .img-col{
+        flex-basis: 100%;
+    }
+    .features h2 {
+        font-size: 30px;
+    }
+    .features p {
+        font-size: 15px;
+    }
+    .features .row:nth-child(2), .features .row:nth-child(4) {
+        flex-direction: column-reverse;
+    }
+    .features .row {
+        padding: 10px 0;
+    }
+    .faq h2 {
+        font-size: 20px;
+    }
+    .accordion .content{
+        font-size: 14px;
+    }
+    .accordion li label {
+        padding: 10px;
+        font-size: 14px;
+    }
+    label::after{
+        font-size: 22px;
+    }
+
+
+}
