@@ -28,7 +28,6 @@ header a.logo{
 
 nav {
     display: flex;
-    align-items: center;
     justify-content: space-between;
     padding: 10px 0;
 }
@@ -52,7 +51,7 @@ header select {
     color: #fff;
     padding: 7px 10px;
     border-radius: 3px;
-    border: 1px solid #fff;
+    border: 2px solid #fff;
 }
 
 .home-content{
@@ -95,17 +94,17 @@ input{
    flex: 1;
    border: 0;
    outline: 0;
-   margin-left: 20px;
    padding: 15px 30px;
 }
 
 button {
     background: #e50914;
-    font-weight: bold;
-    border: 0;
+    font-size: 15px;
+    font-weight: 400;
+    border: none;
     color: #fff;
-    outline: 0;
-    padding: 15px 30px;
+    outline: none;
+    padding: 15px 20px;
 }
 
 /*---------features----------------*/
@@ -262,13 +261,14 @@ footer {
 
 @media only screen and (max-width: 600px) {
     header .logo svg {
-        width: 100px;
+        width: 90px;
     }
     nav .select .button {
-        padding: 5px 10px;
+        padding: 5px 8px;
+        margin-left: 5px;
     }
     nav select {
-        padding: 4px 8px;
+        padding: 4px 5px;
     }
     .home-content {
         position: unset;
@@ -321,5 +321,18 @@ footer {
         font-size: 22px;
     }
 
+    footer {
+        padding: 30px;
+        border-top: 6px solid #303030;
+    }
+    .footer .row {
+        padding: 5px;
+    }
+    form {
+    flex-direction: column;
+    }
+    input {
+        margin-bottom: 10px;
+    }
 
 }
