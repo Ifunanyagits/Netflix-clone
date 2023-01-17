@@ -92,12 +92,12 @@ input {
     cursor: pointer;
 }
 
-input[type=checkbox] {
+/* input[type=checkbox] {
     width: 15px;
     height: 12px;
     border-radius: 5px;
     margin-right: 0;
-}
+} */
 
 label {
     color: #777;
